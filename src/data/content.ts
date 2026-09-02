@@ -76,20 +76,20 @@ export const IMAGES = {
   featureDoorway: '/images/service-decor.webp',
   featureSolarium: '/images/service-design.webp',
   serviceBuild: '/images/service-build.webp',
-  featureDining: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=85',
+  featureDining: '/images/feature-dining.webp',
   featuredProjects: [
     {
-      image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85',
+      image: '/images/featured-01.webp',
       caption: '01 / DOWNTOWN LOFT',
       location: 'SoHo, Manhattan',
     },
     {
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85',
+      image: '/images/featured-02.webp',
       caption: '02 / TRIBECA PENTHOUSE',
       location: 'Tribeca, New York',
     },
     {
-      image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=85',
+      image: '/images/featured-03.webp',
       caption: '03 / WEST VILLAGE TOWNHOUSE',
       location: 'West Village, New York',
     }
@@ -100,21 +100,21 @@ export const IMAGES = {
       title: 'Upper East Side Residence',
       category: 'RESIDENTIAL RENOVATION',
       description: 'Interior architecture renovation of an Upper East Side post-war apartment showcasing a custom millwork TV and fireplace surround, chaise lounges by B&B Italia and a fireplace by EcoSmart Fire USA.',
-      image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/latest-01.webp',
     },
     {
       id: 'lw-2',
       title: 'Upper East Side Residence',
       category: 'COMPLETE ARCHITECTURAL REDESIGN',
       description: 'Complete architectural reconfiguration including foyer, living and dining spaces. Custom millwork and plaster wall panels, lighting by Apparatus and stone surfaces by Da Vinci Marble.',
-      image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/latest-02.webp',
     },
     {
       id: 'lw-3',
       title: 'Upper East Side Residence',
       category: 'PARK AVENUE LUXURY',
       description: 'An expansive apartment renovation overlooking Central Park. Warm timber wall paneling, bespoke walnut dining table with custom leather chairs and curated 20th-century artwork from Phillips auction house.',
-      image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85',
+      image: '/images/latest-03.webp',
     }
   ],
   aboutFounders: '/images/about-founders.webp',
@@ -124,14 +124,14 @@ export const IMAGES = {
       title: 'Upper East Side Residence',
       subtitle: 'HISTORICAL RESTORATION & MILLWORK',
       description: 'Interior architecture renovation of an Upper East Side townhouse with bespoke millwork TV and fireplace surround, custom lighting package and furniture curated from French antique dealers.',
-      image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85',
+      image: '/images/transformation-01.webp',
     },
     {
       id: 't-2',
       title: 'Upper East Side Residence',
       subtitle: 'CONTEMPORARY INTERIOR LIVING',
       description: 'Interior architecture renovation of an Upper East Side post-war apartment showcasing a custom millwork TV and fireplace surround, Chaise lounges by B&B Italia and a fireplace by EcoSmart Fire USA.',
-      image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85',
+      image: '/images/transformation-02.webp',
     }
   ],
   furniture: [
@@ -160,7 +160,7 @@ export const IMAGES = {
       itemCount: 15
     }
   ],
-  ctaBanner: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=2000&q=85',
+  ctaBanner: '/images/cta-banner.webp',
 };
 
 export const PROJECTS: ProjectItem[] = [
